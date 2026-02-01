@@ -102,3 +102,12 @@ theme: Fan
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+comments:
+  staticman:
+    endpoint:
+    repo:
+    service: github
+    branch: main
+    sorting: desc
