@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://hexo-test.dongzhimin.su/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -106,8 +106,8 @@ deploy:
 
 comments:
   staticman:
-    endpoint:
-    repo:
+    endpoint: https://staticman-1-08s7.onrender.com/v3/entry/dongzhimin-xz/hexo-test/main/comments
+    repo: hexo-test
     service: github
     branch: main
     sorting: desc
